@@ -580,7 +580,7 @@ img {
   padding-left: 16px;
   border-radius: 4px;
   border: 1px solid var(--white-background-color);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  filter: box-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   outline: none;
 }
 
@@ -896,6 +896,7 @@ img {
 }
 
 .modal-check-text {
+  display: block;
   color: var(--subtle-text-color);
   font-size: 12px;
   line-height: 1.17;
